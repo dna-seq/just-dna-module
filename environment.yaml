@@ -2,9 +2,10 @@ name: just-dna-module
 channels:
   - conda-forge
   - bioconda
-  - defaults
 dependencies:
   - python>=3.11
+  - sqlite
+  - twine
   - pip
   - pip:
-    - oakvar
+    - oakvar>=2.11.24
