@@ -3,9 +3,10 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - python>=3.11
+  - python==3.11
   - sqlite
   - twine
   - pip
   - pip:
     - oakvar>=2.11.24
+    - numpydoc

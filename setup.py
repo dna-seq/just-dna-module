@@ -15,7 +15,7 @@ DESCRIPTION = 'Just DNA Module'
 
 setup(
     name="just-dna-module",
-    version="0.1.0",
+    version=VERSION,
     author="Anton Kulaga",
     author_email="antonkulaga@gmail.com",
     description=DESCRIPTION,
